@@ -1,11 +1,14 @@
-- 👋 Hi, I’m @AbubiBoba
-- 👀 I’m interested in Game Development
-- 🌱 I’m currently learning C#, Python
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me
+- 👋 Hello, I’m `@AbubiBoba`
+- 👀 I’m interested in Sport Programming and Game Development
+- 🌱 I’m currently learning `C++`,
+- 🧠 I’m also know `C#`, `Python`
+- 📫 How to reach me:
 {
-  Telegram: https://t.me/AbubiB0ba
+  [🛩️Telegram](https://t.me/AbubiB0ba)
 }
+<!--- 
+- 💞️ I’m looking to collaborate on ... 
+--->
 
 <!---
 AbubiBoba/AbubiBoba is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
