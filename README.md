@@ -1,7 +1,7 @@
 - 👋 Hello, I’m `@AbubiBoba`
 - 👀 I’m interested in Sport Programming and Game Development
 - 🌱 I’m currently learning `C++`,
-- 🧠 I’m also know `C#`, `Python`
+- 🧠 I also know `C#`, `Python`
 - 📫 How to reach me:
 {
   [🛩️Telegram](https://t.me/AbubiB0ba)
