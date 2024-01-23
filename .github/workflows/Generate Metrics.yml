@@ -4,7 +4,7 @@ on:
     - cron: "0 0 * * *"
   push:
     branches:
-      - main
+      ["master", "main"]
   workflow_dispatch:
 jobs:
   Generating_Metrics:
@@ -12,7 +12,7 @@ jobs:
     steps:
       # stats
       - name: stats
-        uses: lowlighter/metrics@latest
+        uses: AbubiBoba/metrics-gen@latest
         with:
           filename: Images/Dynamic/stats.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -21,7 +21,7 @@ jobs:
           plugin_lines: yes
       # notable contributions
       - name: notable contributions
-        uses: lowlighter/metrics@latest
+        uses: AbubiBoba/metrics-gen@latest
         with:
           filename: Images/Dynamic/contribs.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -30,7 +30,7 @@ jobs:
           plugin_notable: yes
       # isocalendar
       - name: isocalendar
-        uses: lowlighter/metrics@latest
+        uses: AbubiBoba/metrics-gen@latest
         with:
           filename: Images/Dynamic/isocalendar.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -39,7 +39,7 @@ jobs:
           plugin_isocalendar: yes
       # languages
       - name: languages
-        uses: lowlighter/metrics@latest
+        uses: AbubiBoba/metrics-gen@latest
         with:
           filename: Images/Dynamic/languages.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -54,7 +54,7 @@ jobs:
           plugin_languages_categories: data, markup, programming, prose
       # topics
       - name: topics
-        uses: lowlighter/metrics@latest
+        uses: AbubiBoba/metrics-gen@latest
         with:
           filename: Images/Dynamic/topics.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -65,7 +65,7 @@ jobs:
           plugin_topics_limit: 0
       # issues & PRs
       - name: issues & PRs
-        uses: lowlighter/metrics@latest
+        uses: AbubiBoba/metrics-gen@latest
         with:
           filename: Images/Dynamic/issuesPRs.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -75,7 +75,7 @@ jobs:
           plugin_followup_sections: repositories, user
       # achievements
       - name: achievements
-        uses: lowlighter/metrics@latest
+        uses: AbubiBoba/metrics-gen@latest
         with:
           filename: Images/Dynamic/achievements.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -88,7 +88,7 @@ jobs:
           plugin_achievements_display: compact
       # reactions
       - name: reactions
-        uses: lowlighter/metrics@latest
+        uses: AbubiBoba/metrics-gen@latest
         with:
           filename: Images/Dynamic/reactions.svg
           token: ${{ secrets.METRICS_TOKEN }}
