@@ -24,3 +24,20 @@
   />
 </picture>
 <!---  --->
+
+<!--- Stats --->
+<picture>
+  <img src="/Images/Dynamic/stats.svg" alt="Stats">
+</picture>
+
+<!--- Languages --->
+<picture>
+  <img src="/Images/Dynamic/languages.svg" alt="Languages">
+</picture>
+
+<!--- Calendar --->
+<picture>
+  <img src="/Images/Dynamic/isocalendar.svg" alt="Calendar">
+</picture>
+
+
